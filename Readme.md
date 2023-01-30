@@ -16,9 +16,9 @@ This repository contains Terraform code that creates a VPC, subnet, internet gat
 ```
 $ git clone https://github.com/Oleh-Hudzo/IaaC-project.git
 ```
-2. Change directory to the cloned repository:
+2. Navigate to the Terraform directory within the cloned repository:
 ```
-$ cd IaaC-project
+$ cd IaaC-project/Terraform
 ```
 3. Change variables in a file named terraform.tfvars in the Terraform directory of the cloned repository, and populate it with the following variables:
 ```
