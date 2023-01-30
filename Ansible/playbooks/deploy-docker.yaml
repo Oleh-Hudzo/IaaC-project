@@ -62,7 +62,7 @@
 
     - name: Unpack the .tgz archive
       ansible.builtin.unarchive:
-        src: "./files/node-ex-website-1.0.0.tgz"
+        src: "./files/app-archive.tgz"
         dest: /home/ec2-user
 
     - name: Build the Docker image on remote host
