@@ -49,7 +49,7 @@ $ terraform apply
 $ terraform destroy
 ```
 
-After the resources have been created, you can access your Node.js app by using the public IP of the EC2 instance on port 8080. The script runs a portfolio website by default, if no changes are made.
+After the resources have been created, you can access your Node.js app by using the public IP of the EC2 instance on port 80. The script runs a portfolio website by default, if no changes are made.
 
 
 Ansible is used in conjunction with Terraform because it provides more advanced provisioning capabilities compared to Terraform. Terraform is great for provisioning infrastructure, but it is limited in its ability to install, configure, and manage applications. Ansible, on the other hand, is a powerful configuration management tool that can automate complex application deployments, software updates, and other tasks. The use of Ansible allows for more advanced provisioning scenarios, and it provides more flexibility and control over the application environment.
